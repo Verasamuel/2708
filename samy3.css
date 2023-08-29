@@ -1,0 +1,84 @@
+/* Estilos generales para la página */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+/* Estilos para el título principal */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #660069;
+}
+
+/* Estilos para el enlace hacia la siguiente página */
+h1:last-child {
+    font-size: 50px;
+    margin: 0;
+    color: #ff7300;
+}
+
+/* Estilos para la historia */
+.story {
+    background-color: #0f5c05;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para la fecha */
+.date {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Estilos para el título de los eventos */
+.event-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #660069;
+}
+
+/* Estilos para los párrafos de la historia */
+.event p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: #f7f7f7;
+}
+
+/* Estilos para el botón */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff7300;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #660069;
+}
